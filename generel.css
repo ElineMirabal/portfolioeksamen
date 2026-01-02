@@ -20,6 +20,11 @@ html {
 
 /**********font*****************/
 
+h3 {
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: lighter;
+}
+
 p {
   font-family: "aktiv-grotesk", sans-serif;
 }
