@@ -1,0 +1,26 @@
+<svg width="143" height="133" viewBox="0 0 143 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="101" y="44" width="11" height="34" transform="rotate(180 101 44)" fill="black"/>
+<rect x="140" y="44" width="11" height="34" transform="rotate(180 140 44)" fill="black"/>
+<rect x="121" y="44" width="12" height="34" transform="rotate(180 121 44)" fill="black"/>
+<rect x="82" y="44" width="12" height="34" transform="rotate(180 82 44)" fill="black"/>
+<rect x="62" y="44" width="12" height="34" transform="rotate(180 62 44)" fill="black"/>
+<rect x="42" y="44" width="9" height="34" transform="rotate(180 42 44)" fill="black"/>
+<rect width="34" height="36" transform="matrix(1 0 0 -1 25 84)" fill="black"/>
+<rect width="17" height="36" transform="matrix(1 0 0 -1 4 84)" fill="black"/>
+<rect width="34" height="36" transform="matrix(1 0 0 -1 92 84)" fill="black"/>
+<rect width="10" height="36" transform="matrix(1 0 0 -1 130 84)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 9 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 65 89)" fill="black"/>
+<rect width="4" height="33" transform="matrix(-1 0 0 1 27 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 84 89)" fill="black"/>
+<rect width="4" height="33" transform="matrix(-1 0 0 1 46 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 18 89)" fill="black"/>
+<rect width="4" height="33" transform="matrix(-1 0 0 1 74 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 37 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 93 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 102 89)" fill="black"/>
+<rect width="5" height="33" transform="matrix(-1 0 0 1 56 89)" fill="black"/>
+<path d="M27.7031 28.9062H10.9219V37.7891H30.0469V44H3.86719V9.45312H29.2031V15.5703H10.9219V22.9062H27.7031V28.9062Z" fill="black"/>
+<path d="M75.1953 79.0078C76.8984 79.0078 78.2812 78.8203 79.3438 78.4453C81.3594 77.7266 82.3672 76.3906 82.3672 74.4375C82.3672 73.2969 81.8672 72.4141 80.8672 71.7891C79.8672 71.1797 78.2969 70.6406 76.1562 70.1719L72.5 69.3516C68.9062 68.5391 66.4219 67.6562 65.0469 66.7031C62.7188 65.1094 61.5547 62.6172 61.5547 59.2266C61.5547 56.1328 62.6797 53.5625 64.9297 51.5156C67.1797 49.4688 70.4844 48.4453 74.8438 48.4453C78.4844 48.4453 81.5859 49.4141 84.1484 51.3516C86.7266 53.2734 88.0781 56.0703 88.2031 59.7422H81.2656C81.1406 57.6641 80.2344 56.1875 78.5469 55.3125C77.4219 54.7344 76.0234 54.4453 74.3516 54.4453C72.4922 54.4453 71.0078 54.8203 69.8984 55.5703C68.7891 56.3203 68.2344 57.3672 68.2344 58.7109C68.2344 59.9453 68.7812 60.8672 69.875 61.4766C70.5781 61.8828 72.0781 62.3594 74.375 62.9062L80.3281 64.3359C82.9375 64.9609 84.9062 65.7969 86.2344 66.8438C88.2969 68.4688 89.3281 70.8203 89.3281 73.8984C89.3281 77.0547 88.1172 79.6797 85.6953 81.7734C83.2891 83.8516 79.8828 84.8906 75.4766 84.8906C70.9766 84.8906 67.4375 83.8672 64.8594 81.8203C62.2812 79.7578 60.9922 76.9297 60.9922 73.3359H67.8828C68.1016 74.9141 68.5312 76.0938 69.1719 76.875C70.3438 78.2969 72.3516 79.0078 75.1953 79.0078Z" fill="black"/>
+<path d="M113.266 122H106.539V87.4531H117.039L123.32 114.617L129.555 87.4531H139.938V122H133.211V98.6328C133.211 97.9609 133.219 97.0234 133.234 95.8203C133.25 94.6016 133.258 93.6641 133.258 93.0078L126.719 122H119.711L113.219 93.0078C113.219 93.6641 113.227 94.6016 113.242 95.8203C113.258 97.0234 113.266 97.9609 113.266 98.6328V122Z" fill="black"/>
+</svg>
