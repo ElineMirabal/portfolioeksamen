@@ -1,0 +1,11 @@
+.introduktion {
+  background-color: #d33f14;
+  padding: 20px;
+  margin: 30px 30px 30px 30px;
+}
+
+.aarstal {
+  justify-content: right;
+  text-align: right;
+  margin-top: 35px;
+}

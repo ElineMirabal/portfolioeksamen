@@ -1,0 +1,15 @@
+/********************FORSIDE*******************/
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+  align-self: stretch;
+}
+
+/****************TEMA SIDE***************/
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

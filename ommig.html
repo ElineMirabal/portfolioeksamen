@@ -6,6 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="ommig.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io (8)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io (8)/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+    <!-- /* <link rel="manifest" href="/site.webmanifest"> */ -->
     <title>Om mig
 
     </title>
@@ -40,11 +48,116 @@
         </nav>
     </header>
     <main>
-        <h1> OM MIG</h1>
+        <section>
+            <div class="h1sider">
+                <h1>Om mig</h1>
+                <div class="ommig">
+                    <img src="img/ommig1.webp" alt="mig">
+                    <div class="billedeunder">
+                        <img src="svg/stribertilfoto.svg" alt="stribertilfoto">
+                    </div>
+                </div>
+                <h3>Eline Steckhahn Mirabal</h3>
+                <h2> Multimediedesigner</h2>
+            </div>
+        </section>
+        <p> Som multimedie designer arbejder jeg med design, kommunikation og teknologi på digitale platforme, der
+            skaber gode brugeroplevelser, på primært websites.
+            Jeg dygtiggør mig derfor inde for UX/UI, grafisk design, indholdsproduktion og frontend-udvikling i form af
+            kodning af websites fra bunden, med HTML, CSS og Javascript.
+
+            På mit første semester, har jeg derfor fået en forståelse for hele strukturen i opbyggelsen af en website,
+            samt lært at forstå hvad UX/UI er og hvor vigtig en viden det er for at skabe de bedste brugeroplevelser på
+            digitale platforme.</p>
+
+        <div class="skills">
+            <h1>Skills</h1>
+            <img src="svg/skills1.svg" alt="skills1">
+            <img src="svg/skills2.svg" alt="skills2">
+        </div>
+
+        <!--*****************************Dialogbox*********************************-->
+        <h1>Min Erfaring</h1>
+        <div class="afrunding">
+            <p> Mine erfaringer indebærer en god forståelse for koncept- og ideudvikling, samt grafisk design. Jeg har
+                igennem flere kurser inde for design og kunst, fået flere redskaber til at formidle og varetage
+                forskellige opgaver inde for design. Blandt andet kan jeg gøre brug af de forskellige adobe programmer. 
+                I mit arbejdsliv i butik de seneste 6 år, har jeg blandt andet beskæftiget mig med So-Me og haft stor 
+                indflydelse på butikkens flow, samt dekoration. 
+            </p>
+        </div>
+        <div class="erfaringdialog">
+            <dialog id="dialog1">
+                <form method="dialog">
+                    <h1>Erhvervs
+                        erfaring</h1>
+
+                    <h2>Butiksassistent</h2>
+                    <p>
+                        Basic and More, Købmagergade &
+                        Frederiksberg
+                        maj 2023 - nuværende job</p>
+
+                    <h2>Barista/salgsassistent</h2>
+                    <p>
+                        Designcaféen, Østerbro
+                        mar 2023 - okt 2023</p>
+
+                    <h2>Salgsassistent</h2>
+                    <p>
+                        Aldi, Frederiksberg
+                        feb 2022 - mar 2023
+                    </p>
+
+                    <h2>Salgsassistent</h2>
+                    <p>
+                        Superbrugsen, Sakskøbing
+                        jul 2018 - aug 2021
+                    </p>
+
+                    <h2>Ungarbejder </h2>
+                    <p>
+                        Flying Tiger Copenhagen, Nykøbing Falster
+                        maj 2015- aug 2016</p>
+
+                    <h1>Uddannelse og kurser</h1>
+                    <h2>Dagshøjskole</h2>
+                    <p>
+                        VERA skole for kunst og design
+                        jan 2025 - jun 2025
+                    </p>
+
+                    <h2>Designkursus</h2>
+
+                    <p>Modus skole, København N
+                        okt 2022 - dec 2022
+                    </p>
+
+                    <h2>Højskole</h2>
+                    <p>
+                        Kunsthøjskolen i Holbæk, Holbæk
+                        aug 2021 - dec 2021
+                    </p>
+
+                    <h2>Anden erfaring</h2>
+                    <p>
+                        Medstifter af projektet Ø13, et kunstværksted/
+                        galleri/butik på
+                        Oehlenschlægersgade nr. 13.
+                        dec 2022 - okt 2023</p>
+
+                    <button id="close_btn">
+                        Luk knap
+                    </button>
+                </form>
+            </dialog>
+            <button class="cta_btn" id="cta_open1">Læs mere her</button>
+        </div>
+        <img src="img/ommig2.webp" alt="typografi">
     </main>
     <footer>
 
-        <h1> ELINE STECKHAHN MIRABAL</h1>
+        <h3> ELINE STECKHAHN MIRABAL</h3>
         <p> Multimedie designer studerende på Erhvervsakademi København. </p>
 
         <h3>PROJEKTER</h3>
@@ -76,6 +189,7 @@
     </footer>
     <img src="svg/footerpynt.svg" alt="footerpynt">
     <script src="burger.js"></script>
+    <script src="dialog.js"></script>
 </body>
 
 </html>

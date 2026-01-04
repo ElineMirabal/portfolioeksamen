@@ -18,15 +18,67 @@ html {
   --white: #ffffff;
 }
 
+/***********body********/
+body {
+  background-color: #e9e8e3;
+}
+
 /**********font*****************/
+
+h1 {
+  font-family: "Chonburi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
 
 h3 {
   font-family: "aktiv-grotesk", sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 p {
   font-family: "aktiv-grotesk", sans-serif;
+}
+
+/************cta*************/
+
+.cta {
+  border-style: solid;
+  padding: 8px;
+  margin: 30px 30px 30px 0px;
+  font-family: "aktiv-grotesk", sans-serif;
+  border-color: #101010;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: auto;
+}
+
+.cta img {
+  width: 10%;
+}
+
+.cta-pil {
+  display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+}
+
+.cta a {
+  text-decoration: none;
+  color: #101010;
+}
+
+.cta:hover {
+  background-color: #d33f14;
 }
 
 /**************logo****************/
@@ -174,16 +226,16 @@ footer p {
   margin-right: 40px;
 }
 
-footer h1 {
+footer h3 {
+  display: block;
   margin-top: 30px;
   margin-left: 20px;
   padding: 30px;
-  font-family: "aktiv-grotesk", sans-serif;
   font-weight: 700;
   color: #d33f14;
 }
 
-footer h3 {
+footer h2 {
   margin-top: 25px;
   margin-left: 30px;
   font-family: "aktiv-grotesk", sans-serif;
@@ -224,20 +276,26 @@ footer a:hover {
   margin-right: 30px;
 }
 
-a.cta_btntop {
+.cta_btntop {
   text-align: center;
   border-style: solid;
-  padding: 10px;
-  margin: 30px 30px 30px 30px;
   margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.pilop {
-  grid-template-columns: row;
+.cta-btnop {
+  display: inline-block;
+  width: 1px;
+  height: 2px;
+  vertical-align: middle;
 }
 
-.pilop img {
-  width: 2%;
+.footerpynt {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .cta_btntop:hover {
