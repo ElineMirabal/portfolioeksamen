@@ -1,15 +1,212 @@
 /********************FORSIDE*******************/
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  object-fit: cover;
-  align-self: stretch;
+@media (min-width: 840px) {
+  .introduktion {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 70px;
+  }
+
+  .aarstal {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .introduktion h1 {
+    font-size: 120px;
+    margin-bottom: 100px;
+  }
+
+  .introduktion h2 {
+    font-size: 60px;
+  }
 }
 
 /****************TEMA SIDE***************/
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.indholdikolonner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 840px) {
+  .indholdikolonner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .indholdikolonner img {
+    width: 80%;
+  }
+}
+
+.indholdikolonneromvendt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 840px) {
+  .indholdikolonneromvendt {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .indholdikolonneromvendt > div:first-child {
+    order: 2;
+    flex: 1;
+  }
+
+  .indholdikolonneromvendt > div:last-child {
+    order: 1;
+    flex: 1;
+  }
+}
+
+.oversigtlearing {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 840px) {
+  .oversigtlearing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.kun-desk {
+  display: none;
+}
+
+@media (min-width: 840px) {
+  .kun-desk {
+    display: block;
+  }
+}
+
+/*************PROJEKTER SIDE************/
+.genvejprojekter {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 840px) {
+  .genvejprojekter {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 840px) {
+  .projekt img:hover {
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+  }
+}
+
+/**************FOOTER*************/
+
+.footerindhold {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+@media (min-width: 840px) {
+  .footerindhold {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-venstre,
+  .footer-hoejre {
+    width: 48%;
+  }
+}
+
+/***********OM MIG****************/
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+}
+@media (min-width: 840px) {
+  .skillsbilleder {
+    display: flex;
+  }
+
+  .skillsbilleder img {
+    width: 40%;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .skills h1 {
+    font-size: 80px;
+    text-align: left;
+  }
+}
+
+.introduktionommig {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+@media (min-width: 840px) {
+  .introduktionommig {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.minerfaring {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 840px) {
+  .minerfaring {
+    flex-direction: row;
+    align-items: flex-start;
+    flex: 1;
+  }
+}
+
+@media (min-width: 840px) {
+  .erfaringdialog #dialog1 {
+    max-width: 900px;
+  }
+  .erfaringdialog .Erhvervserfaring {
+    padding: 50px;
+    background-color: #d33f14;
+    line-height: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .erfaringdialog .Kurser {
+    padding: 50px;
+    background-color: #d33f14;
+    line-height: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 840px) {
+  .afrunding,
+  .afrundingsbillede {
+    flex: 1;
+  }
+
+  .afrundingsbillede {
+    max-width: 400px;
+    padding: 30px;
+  }
 }

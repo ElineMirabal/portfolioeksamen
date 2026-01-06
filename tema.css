@@ -14,7 +14,6 @@ h2 {
   padding: 10px;
   margin-left: 40px;
   color: #101010;
-  font-weight: bold;
   margin-bottom: 3px;
   margin-top: 30px;
 }
@@ -22,6 +21,12 @@ h2 {
 p {
   padding: 40px;
   line-height: 1.5rem;
+}
+
+/****************alt indhold**************/
+
+.procesindhold {
+  padding: 30px;
 }
 
 /*************oversigt over læring***********/
@@ -37,7 +42,7 @@ p {
 
 #laering h2 {
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.6rem;
   margin-top: 3px;
   padding: 5px;
   color: #ffffff;
@@ -56,4 +61,24 @@ p {
 
 .procesindhold img {
   padding: 20px;
+  margin-top: 30px;
+}
+
+/*************animation************/
+
+@keyframes clip-reveal {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.fade {
+  animation: clip-reveal 1s ease-in-out both;
+  animation-timeline: view();
+  animation-range: 20% 50%;
 }
